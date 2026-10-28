@@ -1,0 +1,13 @@
+# 密钥
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+
+# 运行产物
+问题数据明细.csv
+
+# IDE
+.idea/
+.vscode/

@@ -1,0 +1,24 @@
+{
+  "table_name": "赔付明细",
+  "columns": {
+    "date": "赔付申请时间",
+    "amount": "赔付金额",
+    "order_id": "订单号",
+    "user_id": "用户ID",
+    "status": "状态",
+    "dimensions": [
+      "赔付原因",
+      "渠道",
+      "酒店星级"
+    ]
+  },
+  "checks": {
+    "wow_threshold": 0.25,
+    "rolling_days": 7,
+    "zscore_k": 2.0,
+    "dup_user_window_days": 30,
+    "dup_user_min_count": 3,
+    "missing_alert_pct": 5.0,
+    "outlier_sigma": 15.0
+  }
+}
